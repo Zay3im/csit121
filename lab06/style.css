@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: white;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    background-color: orange;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    font-style: oblique;
+}
+
+a {
+    color: rgb(220, 136, 68);
+    background-color: rgba(185, 175, 166, 0.76);
+    font-weight: bold;
+}
