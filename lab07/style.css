@@ -1,0 +1,84 @@
+img {
+    width: 100px;
+    border-radius: 10px;
+}
+
+body {
+    background-color: black;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: white;
+}
+
+h1 {
+    background-color: orange;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: rgb(220, 136, 68);
+    background-color: rgba(185, 175, 166, 0.76);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: orange;
+    color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(30, 30, 30);
+}
+
+th {
+    background-color: orange;
+    color: black;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+form {
+    background-color: rgb(30, 30, 30);
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+input,
+select {
+    padding: 8px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    background-color: orange;
+    color: black;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(220, 136, 68);
+}
