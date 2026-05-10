@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 15px;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.88);
+    min-height: 100vh;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+img {
+    width: 400px;
+    max-width: 100%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+/* SIDE NAVIGATION */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 12px 12px 12px 32px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #cccccc;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: yellow;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 36px;
+}
+
+.menu-button {
+    font-size: 28px;
+    cursor: pointer;
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.current {
+    color: yellow !important;
+    font-weight: bold;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
