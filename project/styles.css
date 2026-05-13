@@ -1,0 +1,172 @@
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-image: url("images/shelterpups.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    color: #244A73;
+}
+
+header {
+    background-color: rgba(36, 74, 115, 0.95);
+    color: #F2F2F2;
+    padding: 15px;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 10px;
+}
+
+h1,
+h2,
+h3,
+nav {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(242, 242, 242, 0.92);
+    min-height: 100vh;
+}
+
+section,
+article {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 6px solid #4A90D9;
+    border-radius: 10px;
+}
+
+.hero {
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    background-color: transparent;
+    border-left: none;
+    padding: 0;
+}
+
+.cards article {
+    margin-bottom: 0;
+}
+
+img {
+    width: 400px;
+    max-width: 100%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+a {
+    color: #244A73;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #4A90D9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #244A73;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #4A90D9;
+    padding: 10px;
+    text-align: center;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #244A73;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 12px 12px 12px 32px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #F2F2F2;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    background-color: #4A90D9;
+    color: white;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 36px;
+}
+
+.menu-button {
+    font-size: 28px;
+    cursor: pointer;
+    background-color: #4A90D9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.menu-button:hover {
+    background-color: #F2F2F2;
+    color: #244A73;
+}
+
+.current {
+    background-color: #4A90D9;
+    color: white !important;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 700px) {
+
+    main {
+        width: 85%;
+        margin: auto;
+    }
+
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-height: 450px) {
+
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
